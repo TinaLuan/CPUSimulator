@@ -1,0 +1,16 @@
+1. Fail to open the file, what to do? exit()? print error msg?
+2. fail to malloc, what to do? assert? safe_malloc()?
+3. LN_SIZE in main, what value is better?
+4. validate the command line? the args?
+//5. no need to have a waiting time? because the first in the list is the one waited
+for the longest time.
+//5. has to have a waiting time, sometimes, several processes have the same waiting time.
+6. store the memory capacity in memory struct? or as a variable in main function
+7. for some flags, use bool instead of int will be better
+8. what if event 2 and 3 happen at the same time. need to deal with this situation
+9. usage message for arguments, can't change to a new line
+10. Remember to free
+11. how to make usage precise
+12. use void *
+13. use function pointer
+14. magic numbers
